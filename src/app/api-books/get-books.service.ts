@@ -7,7 +7,7 @@ import { Query } from './books.interface'
   providedIn: 'root'
 })
 export class GetBooksService {
-  private apiUrl = 'http://localhost:1234/books'
+  private apiUrl = 'https://bookapi-mfqh.onrender.com/books'
   constructor(private http: HttpClient) { }
 
   getBooks(): Observable<Query[]> {
