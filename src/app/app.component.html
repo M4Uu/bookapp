@@ -1,0 +1,57 @@
+<main>
+  <div class="container">
+    <div class="header">
+      <h1> {{ books.length }} libros disponibles </h1>
+      <span [ngClass]="{ 'hidden' : cart.length === 0 }">{{ cart.length }} En lista de lectura</span>
+    </div>
+    <section>
+      <div class="containerOptions">
+        <div class="option">
+          <label for="range">Filtrar por páginas:
+            <span>{{pages()}}</span>
+          </label>
+          <input
+            type="range"
+            id="range"
+            [(ngModel)]="pages"
+            (ngModelChange)="filter(this.genreSelect)"
+            min="50"
+            max="1200"
+          >
+        </div>
+        <div class="option">
+          <span>Filtrar por género</span>
+          <div class="menuFilter">
+            <button (click)="toggleMenu()">{{genreSelect}}</button>
+            <ul [ngClass]="{ 'hidden' : !showMenu}">
+            <ng-container *ngFor="let genre of genres">
+                <li (click)="genreClick(genre)">{{ genre }}</li>
+              </ng-container>
+            </ul>
+          </div>
+          </div>
+      </div>
+      <div class="books">
+        <ng-container *ngFor="let book of books ">
+          <img
+            src="{{ book.book.cover }}"
+            alt="book image"
+            (click)="addToCart(book, book.book.ISBN)"
+          >
+        </ng-container>
+      </div>
+    </section>
+  </div>
+  <section class="sidebar" [ngClass]="{ 'hidden' : cart.length === 0 }">
+    <h1>Lista de lectura</h1>
+    <div class="cart">
+      <ng-container *ngFor="let item of cart">
+        <img
+          src="{{ item.book.cover }}"
+          alt=""
+          (click)="spliceToCart(item, item.book.ISBN)"
+        >
+      </ng-container>
+    </div>
+  </section>
+</main>
