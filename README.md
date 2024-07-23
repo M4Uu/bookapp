@@ -14,8 +14,6 @@ Para ello, queremos desarrollar una aplicación web que permita a los usuarios v
 
 Usa el archivo `books.json` para obtener los datos de los libros. Puedes añadir más libros si lo deseas, siempre y cuando siga la misma estructura.
 
-## Requisitos
-
 ### Funcionalidad
 
 1. **Visualización de Libros Disponibles**: La aplicación debe mostrar una lista de libros disponibles que el usuario pueda revisar.
