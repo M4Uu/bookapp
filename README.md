@@ -75,16 +75,6 @@ Usa el archivo `books.json` para obtener los datos de los libros. Puedes añadir
 - Permitir la reorganización de los libros en la lista de lectura por prioridad.
 - Haz que tu diseño sea responsive.
 
-## Entrevista
-
-Si pasas a la siguiente fase, te pediremos que hagas una entrevista con nosotros. Durante la entrevista, te pediremos que expliques tu código y que hagas algunos cambios en el mismo.
-
-- Nos tendrás que explicar el código que has escrito y las decisiones que has tomado.
-- Haremos cambios en el JSON y tendrás que adaptar el código en vivo.
-- Añadiremos un nuevo filtro a la aplicación y tendrás que implementarlo.
-
-Buena suerte y ¡diviértete programando!
-
 ## Referencias
 
 - Diseño de Josh W. Comeau para una aplicación de libros pendientes de leer: https://twitter.com/JoshWComeau/status/1678893330480898049
