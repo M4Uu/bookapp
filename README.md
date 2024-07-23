@@ -54,7 +54,46 @@ Usa el archivo `books.json` para obtener los datos de los libros. Puedes añadir
 - Añade un nuevo filtro para filtrar los libros por número de páginas.
 - Permitir la reorganización de los libros en la lista de lectura por prioridad.
 - Haz que tu diseño sea responsive.
+## Consejos sobre el código
 
+1. **Estructura del código**: El código debe estar bien organizado y fácil de leer.
+
+2. **Semántica HTML**: El HTML debe ser semántico y accesible.
+
+3. **Pensando en equipo**: Prepara tu proyecto pensando que cualquier persona de tu equipo puede tener que trabajar en él en el futuro. (scripts en el package.json, mínima documentación en el README, comentarios en el código si es necesario, etc)
+
+4. **Formatea tu código**: Asegúrate de que tu código está formateado de forma consistente. Puedes usar Prettier o cualquier otra herramienta que te guste.
+
+5. **Preparado para producción**: Asegúrate de que tu aplicación está lista para producción. Minimiza el código, optimiza las imágenes, etc.
+
+## Desafíos adicionales
+
+**¿Quieres ir más allá?** Estos son algunos desafíos adicionales que puedes intentar:
+
+- Implementar una funcionalidad de búsqueda en la lista de libros disponibles.
+- Añade un nuevo filtro para filtrar los libros por número de páginas.
+- Permitir la reorganización de los libros en la lista de lectura por prioridad.
+- Haz que tu diseño sea responsive.
+
+## Entrevista
+
+Si pasas a la siguiente fase, te pediremos que hagas una entrevista con nosotros. Durante la entrevista, te pediremos que expliques tu código y que hagas algunos cambios en el mismo.
+
+- Nos tendrás que explicar el código que has escrito y las decisiones que has tomado.
+- Haremos cambios en el JSON y tendrás que adaptar el código en vivo.
+- Añadiremos un nuevo filtro a la aplicación y tendrás que implementarlo.
+
+Buena suerte y ¡diviértete programando!
+
+## Referencias
+
+- Diseño de Josh W. Comeau para una aplicación de libros pendientes de leer: https://twitter.com/JoshWComeau/status/1678893330480898049
+
+- Dribbble con rediseño de Goodreads: https://dribbble.com/shots/2523654-Books-listing-page-goodreads
+
+- Concepto de uso de arrastrar libros: https://dribbble.com/shots/19351938-Mybooks-Page-Board
+
+- Concepto de landing para una aplicación de libros: https://dribbble.com/shots/16279204-Book-Web-Store-Concept
 ## Entrevista
 
 Si pasas a la siguiente fase, te pediremos que hagas una entrevista con nosotros. Durante la entrevista, te pediremos que expliques tu código y que hagas algunos cambios en el mismo.
